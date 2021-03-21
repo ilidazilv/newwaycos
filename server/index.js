@@ -33,9 +33,9 @@ app.use(cookieSession({
 
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: 'dm255692',
-  database: 'newwaycos',
+  user: '',
+  password: '',
+  database: '',
 })
 
 
