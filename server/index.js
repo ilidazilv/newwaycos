@@ -73,8 +73,8 @@ app.post('/server/email', function (req, res){
     port: 465,
     secure: true,
     auth: {
-      user: 'contact@newwaycos.com',
-      pass: '!1Ddimaa'
+      user: '',
+      pass: ''
     }
   });
   transporter.sendMail(mailOptions, function(error, info){
