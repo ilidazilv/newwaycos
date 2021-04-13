@@ -126,7 +126,7 @@ app.post('/server/postOrder', function (req, res){
               secure: true,
               auth: {
                   user: 'contact@newwaycos.com',
-                  pass: '!1Ddimaa'
+                  pass: ''
               }
           });
           readHTMLFile(__dirname + '/templates/emailThankYou.html', function (err, html) {
@@ -177,7 +177,6 @@ app.post('/server/postOrder', function (req, res){
       })
   }
   req.end;
-
 })
 
 app.post('/server/login', function (req, res){
